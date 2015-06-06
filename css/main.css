@@ -138,3 +138,29 @@ ul li{
   display:table;
   clear:both;
 }
+/*第二课 end*/
+/*第三课，实现页面内容*/
+.education-experience__list li img{
+	width: 180px;
+	float: left;
+}
+
+.education-experience__list__article{
+	overflow: hidden;
+	padding-left: 40px;
+	margin-bottom: 50px;
+}
+
+/*实现photo box布局*/
+.photos__list li{
+	margin: 0;
+	float: left;
+	box-sizing:border-box;
+	width: 25%;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.photos__list li img{
+	width: 100%;
+}
