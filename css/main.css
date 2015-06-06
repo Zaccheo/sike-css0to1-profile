@@ -148,7 +148,7 @@ ul li{
 .education-experience__list__article{
 	overflow: hidden;
 	padding-left: 40px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 /*实现photo box布局*/
@@ -163,4 +163,50 @@ ul li{
 
 .photos__list li img{
 	width: 100%;
+}
+
+
+/*第四课，实现get in touch*/
+.get-in-touch__list {
+	overflow: hidden;
+}
+
+.get-in-touch__list li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+/*第五课，contact实现*/
+.contact input,
+.contact textarea{
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact button{
+	border:none;
+	border-radius: 9999px;
+	background:#ffd524;
+	cursor: pointer;
+	text-shadow:0 1px 1px rgba(0,0,0,0.2);
+	color:#fff;
+	box-shadow: 0 3px 0 #daae1d;
+	width: 100%;
+}
+
+.contact form{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.contact form input,textarea{
+	width: 100%;
+	padding: 8px;
+}
+
+.contact .formdiv{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
 }
