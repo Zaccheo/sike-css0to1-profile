@@ -217,3 +217,80 @@ ul li{
 	margin-top: 13px;
 	margin-right: 10px;
 }
+
+
+/**响应式布局,设备宽度480px**/
+@media only screen and (max-width: 480px){
+	ul li{
+		display: block;
+	}
+
+	.container{
+		width: 100%;
+	}
+	.main-nav ul li{
+		margin: 0;
+	}
+	.main-header h1{
+		font-size: 20px;
+	}
+	.info-section{
+		padding:1px;
+	}
+	li.whatido__skill{
+		margin-bottom: 40px;
+	}
+	.photos__list li{
+        width: 100%;
+        display: block;
+    }
+	.get-in-touch__list li {
+        padding: 0;
+        width: 50%;
+    }
+    .whatido__skill-list {
+        margin: 0;
+        padding: 1px;
+    }
+    .whatido__skill {
+        width: 100%;
+        display: block;
+    }
+
+    .education-experience__list {
+        padding: 1px;
+        margin: 0;
+    }
+    .education-experience__list li img {
+        width: 120px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .education-experience span {
+        display: block;
+    }
+
+    .photos__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .get-in-touch__list {
+        margin: 0;
+        padding: 1px;
+    }
+
+    .contact .formdiv label {
+        position: static;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+    .contact  {
+        width: 100%;
+    }
+
+}
